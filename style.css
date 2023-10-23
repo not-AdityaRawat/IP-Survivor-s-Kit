@@ -158,3 +158,17 @@ text-align: center;
         margin-left: 29px;
     }
 }
+@media (max-width:400px){
+    .col{
+        width: 155px;
+        margin-left: 35px;
+        background-size: cover;
+    }
+}
+@media (max-width:350px){
+    .col{
+        width: 100px;
+        margin-left: 45px;
+        background-size: cover;
+    }
+}

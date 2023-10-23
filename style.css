@@ -167,9 +167,9 @@ text-align: center;
 }
 @media (max-width:430px){
     .col{
-        width: 155px;
-        margin-left: 35px;
-        background-size: cover;
+        width: 181px;
+    margin-left: 11px;
+    background-size: cover;
 
     }
     .container{
@@ -184,6 +184,7 @@ text-align: center;
         background-size: cover;
     }
 }
+
 @media (min-width:1400px){
     .container{
         margin-left: 191px;

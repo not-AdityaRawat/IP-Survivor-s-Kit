@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <title>Electrical Science</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styleelec.css">
+    
+  </head>
+  <body style="zoom: 0.8; background-image: url(/3409297.jpg) ; background-repeat: no-repeat;background-position: 100%">
+    <!-- nav-bar -->
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html" style="color: #FFF5F5; font-family: 'Inter', sans-serif;
+       font-size: 60px;font-style: normal;font-weight: 500;line-height: normal; letter-spacing: -5.4px;">IP Survivor's Kit</a>
+        
+        
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="
+        margin-top: 17px;    color: #A1A6AF;
+font-family: Modern Era;font-size: 24px;font-style: normal;font-weight: 400;
+line-height: normal;
+">
+  <ul class="navbar-nav mx-lg-auto navbar-nav-scroll" style="column-gap: 150px; text-align: center; ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html" id="home-icon">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/About.html">About</a>
+            </li>
+           <li class="nav-item"> 
+            <a href="https://github.com/not-AdityaRawat" class="nav-link">Github</a>
+           </li>
+           <li class="nav-item">
+            <a href="https://www.linkedin.com/in/aditya-rawat-6a824a256" class="nav-link">Contact</a>
+           </li>
+         
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+     
+
+
+
+    <!-- text-animation -->
+
+    <section>
+      <div class="container-lg">
+        <div class="box" id="typing-text" class="text-center">
+      </div>
+    </div>
+    
+    </section>
+    <script>
+        const text = "Electrical Science";
+
+const typingText = document.getElementById("typing-text");
+let index = 0;
+
+function type() {
+    if (index < text.length) {
+        typingText.textContent += text.charAt(index);
+        index++;
+        setTimeout(type, 100); // Adjust typing speed (in milliseconds) here
+    }
+}
+
+type();
+    </script>
+    
+
+
+
+    <div class="container">
+      <div class="row row-cols-3">
+        
+        <div class="card col">
+          <h2 class="card-title">Book Electrical unit-1</h2>
+          <iframe class="pdf-preview" src="Books.pdf" frameborder="0"></iframe>
+          <p>This is a preview of the PDF file.</p>
+          <a href="Books.pdf" download><button type="button" class="btn btn-primary">Download PDF</button></a>
+      </div>
+      <div class="card col">
+        <h2 class="card-title">Complete Notes Unit-1</h2>
+        <iframe class="pdf-preview" src="DC CIrcuit.pdf" frameborder="0"></iframe>
+        <p>This is a preview of the PDF file.</p>
+        <a href="DC CIrcuit.pdf" download><button type="button" class="btn btn-primary">Download PDF</button></a>
+    </div>
+    <div class="card col">
+      <h2 class="card-title">Assignment Unit-1</h2>
+      <iframe class="pdf-preview" src="Elec_Assignment_1[1] solution.pdf" frameborder="0"></iframe>
+      <p>This is a preview of the PDF file.</p>
+      <a href="Elec_Assignment_1[1] solution.pdf" download><button type="button" class="btn btn-primary">Download PDF</button></a>
+  </div>
+    
+    <div class="card col">
+      <h2 class="card-title">Student Notes Unit-1</h2>
+      <iframe class="pdf-preview" src="Electrical Science Unit 1 Detailed Notes.pdf" frameborder="0"></iframe>
+      <p>This is a preview of the PDF file.</p>
+      <a href="Electrical Science Unit 1 Detailed Notes.pdf" download><button type="button" class="btn btn-primary">Download PDF</button></a>
+  </div>
+      </div>
+
+    <!-- video links -->
+    <div class="container">
+      <div class="box" style="border-radius: 0%;">Youtube Playlist Links</div>
+    
+      
+
+      <div class="row row-cols-2">
+    <div class="card playlist" id="playlist-card" style="width: 20rem;">
+      <img src="https://i.ytimg.com/vi/0FAktPLbXOA/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC5m0Q0idDHMmkZtp4mGx33sMslZA" class="card-img-top" alt="EngineeringPhysicsbySanjiv">
+      
+      <div class="card-body">
+        <h5 class="card-title">Ekeeda</h5>
+        <p class="card-text">Covers almost all the topics in our syllabus.</p>
+        <a blank href="https://www.youtube.com/@Ekeeda" class="btn btn-primary">Link to Channel</a>
+      </div>
+    </div>
+
+    <div class="card playlist" id="playlist-card" style="width: 20rem;">
+      <img src="https://i.ytimg.com/vi/4eM07FwalU4/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDiGqo4PRg-1MLzxImxCAE2KUKlSQ" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title">Engineers ki Pathshala by Umesh Dhande 
+        </h5>
+        <p class="card-text">Well Explained.</p>
+        <a href="https://www.youtube.com/@gateacademyplusUnacademy" class="btn btn-primary">Link to Channel</a>
+      </div>
+    </div>
+
+    <div class="card playlist" id="playlist-card" style="width: 20rem;">
+      <img src="https://i.ytimg.com/vi/nHssOEH5DkY/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCxG2009VyLhuLAIc8PzxCze-eveA" class="card-img-top" alt="TechnicalPhysics">
+      
+      <div class="card-body">
+        <h5 class="card-title">TIKLE'S ACADEMY</h5>
+        <p class="card-text">Best explanation of Electrical Science. Playlists are available of almost every topic in our syllabus.</p>
+        <a href="https://www.youtube.com/@TIKLESACADEMY" class="btn btn-primary">Link to Channel</a>
+      </div>
+    </div>
+      </div>
+  </div>
+
+
+   <!-- footer -->
+   <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+        <p>&copy; 2023 IP Survivor's Kit</p>
+    </div>
+  </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

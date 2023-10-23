@@ -1,0 +1,165 @@
+
+.box{
+    margin-left: 3em;
+    margin-top: 2em;
+    border-left: 10px solid black;
+    color: #FFF;
+font-family: Inter;
+padding-left: 10px;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: inline-block;
+overflow: hidden;
+width: 100%;
+white-space: nowrap;
+animation: 
+typing 2s steps(15)
+cursor .4s step-end infinite alternate;
+}
+@keyframes cursor {
+    50%{ border-color:transparent}
+}
+@keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
+@media (max-width: 450px){
+    .box{
+        margin-top: 2em;
+        margin-left: 0px;
+        font-size:34px
+    }
+
+}
+
+#searchBar{
+    width: 869px;
+height: 75px;
+flex-shrink: 0;
+border-radius: 34px;
+background: #D9D9D9;
+display: inline-block;
+margin-left: 21em;
+margin-top: 6em;
+
+}
+#sortBy{
+    width: 153px;
+height: 75px;
+flex-shrink: 0;
+border-radius: 34px;
+background: #D9D9D9;
+display: inline-block;
+}
+ 
+@media (max-width:576px) {
+    .form-control{
+        width:30px;
+    }
+    
+}
+#searchBar {
+    width: 100%; /* Make the search bar responsive */
+    max-width: 869px; /* Set the maximum width */
+    height: 75px;
+    border: none;
+    border-radius: 34px;
+    padding: 10px; /* Add padding for text input */
+    font-size: 16px; /* Adjust the font size as needed */
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#sortBy{
+    display: none;
+}
+@media (min-width:700px) {
+    .search-bar{
+        margin-left: 110px;
+    }
+    
+    
+}
+@media (max-width:450px) {
+    .search-bar{
+        margin-top: 50px;
+        
+    }
+    #searchBar{
+        margin-left: 33px;
+        width: 82%;
+    }
+    /* #sortBy{
+        width: 29%;
+    } */
+    
+}
+@media (min-width:450px) and (max-width:700px){
+    .search-bar{
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+    #searchBar{
+        margin-left: 70px;
+        margin-top: 30px;
+        width: 60%;
+    }
+
+    .navbar{
+        width: 100%;
+    }
+    .box{
+        margin-top: 2em;
+        margin-left: 309px;
+        font-size:34px
+    }
+    #typing-text{
+        display: inline-block;
+    }
+    
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+}
+
+.col{
+margin-top: 100px;
+width: 245px;
+height: 345px;
+flex-shrink: 0;
+border-radius: 24px;
+background: #ffffff;
+text-align: center;
+margin-left: 23px;
+}
+@media (max-width:900px){
+    .col{
+        width: 200px;
+        margin-left: 29px;
+    }
+}
+
+#playlist-card{
+    margin-top: 3em;
+    margin-left: 3em;
+}
+@media (max-width:500px){
+    .playlist{
+        width: 600px;
+    }
+}
